@@ -1,0 +1,32 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#slide").click(function(){
+    $("#mydiv").slideToggle("fast");
+  });
+});
+</script>
+<style> 
+#mydiv, #slide {
+  
+  font-size: 25px;
+  background-color: orange;
+ 
+}
+ 
+#mydiv {
+  padding: 175px;
+  font-size: 35px;
+}
+</style>
+</head>
+<body>
+<h1>Slide an Element Up/ Down</h1>
+<p>Click the below div to slide up and down (toggle)...</p>
+<div id="slide">Slide up/ down by clicking here...</div>
+<div id="mydiv">This is demo text.</div>
+ 
+</body>
+</html>
