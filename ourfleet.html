@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <script src="js/script3.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<header style="background-color: #A6874E;">
+    <div class="container">
+     <nav>
+         <div class="logo">
+             <img src="images/logo1.png" alt="">
+         </div>
+         <a class="toggle_button" onclick="myfunction();">
+        <span></span>
+        <span></span>
+        <span></span>
+        </a>
+
+
+
+
+        <div class="flag">
+            <img src="images/flags.png" alt="">
+        </div>
+
+
+
+
+
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">    الصفحة الرئيسية   </a></li>
+                <li><a href="aboutus.html">    عن الشركة    </a></li>
+                <li><a href="whyglobal.html">    لماذا العالمية للطيران     </a></li>
+                <li><a href="ourfleet.html">   إسطولنا  </a></li>
+                <!-- <li><a href="#">      إكتشف   </a></li> -->
+
+
+            </ul>
+        </div>
+     </nav>
+    </div>
+</header>
+
+
+
+
+
+
+
+
+
+<style>
+
+    .single{
+
+        display:flex;
+        flex-direction: row;
+        padding: 200px 0px 200px 0px;
+    gap: 60px;
+    }
+</style>
+
+
+<section class="single">
+
+    <div class="container">
+        
+<div>
+
+    <img src="images/fleet.jpg" alt="">
+
+</div>
+
+<div style="grid-column: 5 / 17;">
+    <h1>
+        إسطولنا
+    </h1>
+       
+    <p>
+    
+        يعكس أسطولنا المكون من طائرتين مملوكتين من طراز إيرباص A321 التزامنا بأحدث التقنيات ، مما يضمن سفرا آمنا وفعالا لكل مسافر.
+    
+        توسيع الآفاق
+        بدءا من جدة والمدينة المنورة، تكرس العالمية للطيران جهودها لتوسيع شبكتها الدولية في جميع أنحاء الشرق الأوسط وخارجه، وتقديم خدمة استثنائية في كل خطوة
+        
+    
+    </p>
+    
+    
+
+</div>
+
+
+
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<footer>
+
+    <div class="container footerflex">
+
+   <div class="footersec" style="flex-basis: content;margin-top:120px;"> 
+
+         <img src="images/logo1.png" style="width:500px;" alt="">
+         <br><br><br>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="footersec">
+            <ul style="margin-top: 30px;">
+
+                <li> عن الشركة   </li>
+                <li> سياسة الشركة
+                </li>
+                <li>إرشادات السلامة</li>
+                <li>تذاكر السفر</li>
+                <li>الأمانات والحقائب</li>
+                <li>خدمات النقل والسكن
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+
+
+        
+
+
+
+        <div class="footersec">
+
+            <ul style="margin-top: 30px;">
+
+                <li>  
+                    
+                    <img src="/images/address.png" alt=""> 
+                    <span>
+              كرادة - عرصات الهندية
+                
+                </span>
+                
+                </li>
+                <li style="margin-right: 50px;margin-top: -20px;">العراق - بغداد</li>
+                <li></li>
+                <li></li>
+
+                <li>  <img src="/images/emailicon.png" style="width: 30px;height: 25px;" alt="">  info@globalavn.com  </li>
+                <li><img src="/images/emailicon.png" style="width: 30px;height: 25px;" alt="">admin@globalavn.com</li>
+                <li></li>
+                <li></li>
+                
+                
+                <li style="font-size: 42px;direction: ltr;margin-left: 50px;width:340px;">  +964 780 539 3030      <br>  </li>
+                
+                
+                <li></li>
+                <li></li>
+                
+                
+                
+                <li>   
+
+                                    
+                       
+                </li>
+            </ul>
+
+        </div>
+
+        
+
+
+        <div class="footersec">
+
+            <img id="prochure" src="/images/prochure.png" alt="" style="width:100%;margin-top:140px;">
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+    <div style="text-align: center;color:white;font-size: 16px;">
+
+
+         
+        <span style="font-weight: 600;">
+        حقوق التصميم والبرمجة والنشر محفوظة
+    </span>
+        <br>
+        
+      شركة طيران العالمية للنقل الجوي محدودة مختلطة
+        <br>
+        2024
+        
+
+
+        <br><br><br>
+
+    </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<script type="text/javascript">
+
+    var swiper = new Swiper('.swiper1', {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          slidesPerGroup: 1,autoplay:true,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: '.swiper-pagination1',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.next1',
+            prevEl: '.prev1',
+          },
+        });
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
