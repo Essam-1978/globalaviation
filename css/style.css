@@ -489,7 +489,7 @@ header {
 footer {
   background-color: #8C3503;
   color: white;
-  background-image: url("/en/images/icon.png");
+  background-image: url("images/icon.png");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
