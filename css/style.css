@@ -564,7 +564,7 @@ footer .footerflex .footersec #prochure:hover {
 .single {
   padding: 200px 0px 200px 0px;
   background-color: grey;
-  background-image: url("images/engine.png");
+  background-image: url("../images/engine.png");
   background-position: bottom;
   background-size: cover;
 }
