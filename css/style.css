@@ -85,7 +85,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("/images/sky.png");
+  background-image: url("images/sky.png");
 }
 
 @media (max-width: 965px) {
@@ -308,7 +308,7 @@ header {
 .guidlines {
   background-color: #A6874E;
   padding: 100px 0px 100px 0px;
-  background-image: url("en/images/icon.png");
+  background-image: url("images/icon.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -564,7 +564,7 @@ footer .footerflex .footersec #prochure:hover {
 .single {
   padding: 200px 0px 200px 0px;
   background-color: grey;
-  background-image: url("/en/images/engine.png");
+  background-image: url("images/engine.png");
   background-position: bottom;
   background-size: cover;
 }
